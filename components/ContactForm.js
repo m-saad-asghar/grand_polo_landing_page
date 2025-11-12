@@ -167,7 +167,7 @@ export default function ContactForm() {
 };
 
   return (
-    <div>
+    <div className="mobile_margin">
       <form onSubmit={handleSubmit}>
       <div className="mb-3">
          <label className="form_label">

@@ -11,7 +11,7 @@ export default function Map() {
         <>
         
         {/*Start Feauture One*/}
-        <section className="feauture-one service_padding" id="dubai-map" style={{paddingTop: 0}}>
+        <section className="feauture-one service_padding" id="map" style={{paddingTop: 0}}>
              <div className="main-slider-one__content">
         <div className='custom_container'>
 

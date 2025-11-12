@@ -234,6 +234,10 @@ display: flex;
     color: #ffffff;
 }
 
+.edge_to_edge {
+height: 100vh;
+   }
+
 .map_container {
     margin-top: 65px;
     /* margin-bottom: 50px; */
@@ -459,7 +463,7 @@ h6 {
 }
 
 .model_image_container {
-    height: 100%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -7697,6 +7701,33 @@ Project Four Css
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+    .mobile_margin {
+        margin-top: 15px;
+    }
+
+    .import_image {
+       margin-top: 50px;
+       margin-bottom: 55px;
+    }
+
+    .why_invest_wrapper_mobile {
+        padding-top: 0 !important;
+        padding-bottom: 10px;
+        height: 100%;
+    }
+
+    .bg_container {
+        width: 100%;
+    }
+
+    .logo_heading {
+        text-align: center;
+    }
+
+    .down_styling {
+        text-align: center;
+    }
+
     .reverse_section {
         display: flex;
         flex-direction: column-reverse;
@@ -7704,6 +7735,7 @@ Project Four Css
 
     .portions_styling {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
     .amenities_styling {
@@ -9230,6 +9262,10 @@ padding: 50px 0px;
 
 @media only screen and (max-width: 767px) {
 
+    .heading_middle {
+   margin-bottom: 18px;
+}
+
 
     .btn_cen {
     display: flex;
@@ -9435,6 +9471,10 @@ padding: 50px 0px;
     margin-top: 30px;
 }
 
+.mobile_para {
+    margin-bottom: 25px;
+}
+
 .btn_style_map {
     display: flex;
     justify-content: center;
@@ -9451,8 +9491,13 @@ padding: 50px 0px;
 }
 
     .resp_usd {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         text-align: center;
+        padding-top: 16px;
+    }
+
+    .full_height {
+        height: 100% !important;
     }
 
     .feature_wrap {
@@ -9517,7 +9562,8 @@ padding-left: 50px !important;
 }
 
 .map_styling {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+    height: 100%;
 }
  
 .service-one {

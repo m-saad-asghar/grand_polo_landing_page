@@ -31,13 +31,13 @@ export default function Banner() {
     <>
     
     <section className="main-slider main-slider-one" id="home">
-      <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-nav-none owl-dots-none" style={{height: "100vh"}}>                    
+      <Swiper {...swiperOptions} className="banner-carousel owl-theme owl-carousel owl-nav-none owl-dots-none edge_to_edge full_height">                    
         <SwiperSlide className="swiper-slide">
           <div className="image-layer main_banner" 
           style={{backgroundImage: 'url(assets/img/slider/grand_polo.jpg)'}}
           >
             </div>
-            <div className="container banner_container_main banner_wrapper">
+            <div className="container banner_container_main banner_wrapper full_height">
                 <div className="main-slider-one__single slider_wrapper">
                  <div className='main_container_full_width'>
                   <div style={{marginTop: 20}} className='logo_appear'>
@@ -102,7 +102,7 @@ export default function Banner() {
   </div>
 </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 main_container bg_container">
+                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 main_container">
                 <ContactFormMain/>
                 </div>
                 </div>

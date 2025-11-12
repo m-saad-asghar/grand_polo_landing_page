@@ -6,7 +6,7 @@ import { Home, Building, Trees, Umbrella, UmbrellaIcon, TreePine, Activity, Dumb
 export default function WhyInvest() {
     return (
         <>
-            <section className="custom_container" id="why-choose-siniya">
+            <section className="custom_container" id="welcome">
                 <div className="row margin_left_null">
 <div className="why_invest_wrapper_pictures col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
 <div className="main-slider-one__content">
@@ -16,7 +16,7 @@ export default function WhyInvest() {
         </div>
       </div>
       <div className=''>
-        <p className="down_styling para_styling">
+        <p className="down_styling para_styling mobile_para">
  A masterpiece of luxurious living where equestrian grace meets modern sophistication. Grand Polo Club & Resort by Emaar — valued at over AED 41 billion and located near The Oasis — redefines harmony between nature, design, and lifestyle. With lush landscapes, world-class amenities, and family-inspired townhouses, it stands as Dubai’s most prestigious equestrian community.
 </p>
 
@@ -215,7 +215,7 @@ export default function WhyInvest() {
 </div>
 
                 </div>
-                <div className="why_invest_wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div className="why_invest_wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 why_invest_wrapper_mobile">
                      <div className="model_image_container">
                         <Image
                         src="/assets/img/polo_model_picture.png"
