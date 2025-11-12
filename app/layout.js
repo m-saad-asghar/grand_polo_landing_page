@@ -8,7 +8,7 @@ import 'swiper/css/free-mode';
 import { dM_Sans, } from '@/lib/font'
 import { Toaster } from 'react-hot-toast';
 export const metadata = {
-    title: 'Grand Polo EN - EMAAR',
+    title: 'Grand Polo Club & Resort EN - EMAAR',
     description: 'Project by EMAAR',
 }
 
