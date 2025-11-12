@@ -134,9 +134,9 @@ export default function WhyInvest() {
                                             </div>
                 
                                                 <h2 className="investment_content">
-                <a href="javascript:void(0);">Handover Q3</a></h2>
+                <a href="javascript:void(0);">Handover</a></h2>
                 <p className="investment_text">
-                  <span className="about_para_span">2029.</span>
+                  <span className="about_para_span">Q3 2029.</span>
                 </p> 
                                             </div>
                                         </div>

@@ -7708,6 +7708,11 @@ Project Four Css
     .import_image {
        margin-top: 50px;
        margin-bottom: 55px;
+       margin-left: auto;
+        margin-right: auto;
+        /* width: 320px; */
+        height: 289px;
+        background-position: unset !important;
     }
 
     .why_invest_wrapper_mobile {
@@ -7722,6 +7727,7 @@ Project Four Css
 
     .logo_heading {
         text-align: center;
+        line-height: 35px;
     }
 
     .down_styling {
@@ -7835,8 +7841,8 @@ padding: 50px 0px;
 }
 
 .why_invest_wrapper_image {
-    padding: 30px 0px;
-    padding-bottom: 50px;
+    padding: 15px 0px;
+    /* padding-bottom: 50px; */
 }
 
 .feature_row {
@@ -8965,6 +8971,7 @@ padding: 50px 0px;
 
     .content {
         font-size: 1.5rem;
+        line-height: 1.2;
     }
 
     .custom_container {
@@ -9264,7 +9271,12 @@ padding: 50px 0px;
 
     .heading_middle {
    margin-bottom: 18px;
+   margin-top: 18px;
 }
+
+    .apartment_container {
+        display: none;
+    }
 
 
     .btn_cen {
