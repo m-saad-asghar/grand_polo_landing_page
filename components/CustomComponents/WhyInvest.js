@@ -21,6 +21,20 @@ export default function WhyInvest() {
 </p>
 
       </div>
+
+      <div className="why_invest_wrapper why_invest_wrapper_mobile shadow_i">
+                     <div className="model_image_container">
+                        <Image
+                        src="/assets/img/polo_model_picture.png"
+                        alt="Model Image"
+                        height={1000}
+                        width={1000}
+                        style={{ height: "auto", width: "auto" }}
+                        className="right_image"
+                      />
+                     </div>
+                </div>
+
        <div className="row feature_row">
                                   <div className="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                         <div className="feauture-one__single" 
@@ -215,7 +229,7 @@ export default function WhyInvest() {
 </div>
 
                 </div>
-                <div className="why_invest_wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 why_invest_wrapper_mobile">
+                <div className="why_invest_wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 why_invest_wrapper_mobile app_i">
                      <div className="model_image_container">
                         <Image
                         src="/assets/img/polo_model_picture.png"
@@ -230,150 +244,7 @@ export default function WhyInvest() {
                 </div>
 
 
-                               <div>
-                <div className="row portions_styling">
-                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            
-                            <div className="service-one__single-inner">
-                                
-                                <div className="icon-box">
-                                    <span className="icon-plane" style={{color: "#9f8151 "}}>
-                                          <Image
-                        src="/assets/icon/sobha_icons/exclusive_island_living.svg"
-                        alt="world_class_amenities"
-                        height={50}
-                        width={300}
-                        className="icons_styling"
-                      />
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2 className="amenities_styling">Themed Parks</h2>
-                                    <div>Four uniquely designed parks encircling a vibrant central park.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="shadow_line">
-                        <hr className="line_styling" />
-                    </div>
-                    </div>
-                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            
-                            <div className="service-one__single-inner">
-                                
-                                <div className="icon-box">
-                                    <span className="icon-plane" style={{color: "#9f8151 "}}>
-                                         <Image
-                        src="/assets/icon/sobha_icons/expensive_green_landscapes.svg"
-                        alt="world_class_amenities"
-                        height={50}
-                        width={300}
-                        className="icons_styling"
-                      />
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2 className="amenities_styling">Clubhouses</h2>
-                                    <p>Seven exclusive venues for fitness, leisure, and social connection across the community.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="shadow_line">
-                        <hr className="line_styling" />
-                    </div>
-                    </div>
-
-                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            
-                            <div className="service-one__single-inner">
-                                
-                                <div className="icon-box">
-                                    <span className="icon-plane" style={{color: "#9f8151 "}}>
-                                          <Image
-                        src="/assets/icon/sobha_icons/world_class_amenities.svg"
-                        alt="world_class_amenities"
-                        height={50}
-                        width={300}
-                        className="icons_styling"
-                      />
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2 className="amenities_styling">Endless Tracks</h2>
-                                    <p>Over 10 km of scenic tracks, trails, and loops for walking, jogging, and riding.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="shadow_line">
-                        <hr className="line_styling" />
-                    </div>
-                    </div>
-
-                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            
-                            <div className="service-one__single-inner">
-                                
-                                <div className="icon-box">
-                                    <span className="icon-plane" style={{color: "#9f8151 "}}>
-                                         <Image
-                        src="/assets/icon/sobha_icons/prime_location.svg"
-                        alt="world_class_amenities"
-                        height={50}
-                        width={300}
-                        className="icons_styling"
-                      />
-{/* <MapPin className="text-gray-100" style={{ fontWeight: 100 }} size={40}/>  */}
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2 className="amenities_styling">Retail Hub</h2>
-                                    <p>A lively destination with supermarkets, dining venues, and boutique retail experiences.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="shadow_line">
-                        <hr className="line_styling" />
-                    </div>
-                    </div>
-
-                    {/* <div className="light_line">
-                        <hr className="line_styling" />
-                    </div>
-
-                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            
-                            <div className="service-one__single-inner">
-                                
-                                <div className="icon-box">
-                                    <span className="icon-plane" style={{color: "#9f8151 "}}>
-                                         <Image
-                        src="/assets/icon/sobha_icons/prime_location.svg"
-                        alt="world_class_amenities"
-                        height={50}
-                        width={300}
-                        className="icons_styling"
-                      />
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2 className="amenities_styling">Retail Hub</h2>
-                                    <p>A lively destination with supermarkets, dining venues, and boutique retail experiences.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="shadow_line">
-                        <hr className="line_styling" />
-                    </div>
-                    </div> */}
-
-                </div>
-               
-            </div>
+                        
             </section>
         </>
     )
