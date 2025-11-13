@@ -32,15 +32,15 @@ export default function Map() {
                                   <div className="service-one__single-inner">
                                       
                                       <div className="icon-box">
-                                          {/* <span className="icon-plane" style={{color: "#9f8151 "}}>
+                                          <span className="icon-plane" style={{color: "#9f8151 "}}>
                                                 <Image
-                              src="/assets/icon/polo_icons/themed_parks.svg"
+                              src="/assets/icon/polo_icons/airport.svg"
                               alt="world_class_amenities"
                               height={50}
                               width={300}
                               className="icons_styling"
                             />
-                                          </span> */}
+                                          </span>
                                       </div>
                                       <div className="content-box">
                                           <p className="amenities_styling">5 Mins</p>
@@ -58,15 +58,15 @@ export default function Map() {
                                   <div className="service-one__single-inner">
                                       
                                       <div className="icon-box">
-                                          {/* <span className="icon-plane" style={{color: "#9f8151 "}}>
+                                          <span className="icon-plane" style={{color: "#9f8151 "}}>
                                                <Image
-                             src="/assets/icon/polo_icons/clubhouses.svg"
+                             src="/assets/icon/polo_icons/expo_city.svg"
                               alt="world_class_amenities"
                               height={50}
                               width={300}
                               className="icons_styling"
                             />
-                                          </span> */}
+                                          </span>
                                       </div>
                                       <div className="content-box">
                                           <p className="amenities_styling">10 Mins</p>
@@ -85,15 +85,15 @@ export default function Map() {
                                   <div className="service-one__single-inner">
                                       
                                       <div className="icon-box">
-                                          {/* <span className="icon-plane" style={{color: "#9f8151 "}}>
+                                          <span className="icon-plane" style={{color: "#9f8151 "}}>
                                                 <Image
-                              src="/assets/icon/polo_icons/endless_tracks.svg"
+                              src="/assets/icon/polo_icons/down_town.svg"
                               alt="world_class_amenities"
                               height={50}
                               width={300}
                               className="icons_styling"
                             />
-                                          </span> */}
+                                          </span>
                                       </div>
                                       <div className="content-box">
                                           <p className="amenities_styling">30 Mins</p>
