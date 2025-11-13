@@ -28,7 +28,7 @@ export default function Properties() {
               <div className="main-slider-one__content">
         <div className='banner_text_container'>
 
-        <h1 className='heading_middle content_why_invest'>UNMATCHED EQUESTRIAN OPULENCE. ENDLESS LUXURY AWAITS</h1>
+        <h1 className='heading_middle content_why_invest'>UNMATCHED EQUESTRIAN OPULENCE. ENDLESS LUXURY AWAITS.</h1>
         </div>
       </div>
       <div className=''>
