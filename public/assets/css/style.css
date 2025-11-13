@@ -267,6 +267,7 @@ height: 100vh;
 
 .custom_spacing_btn {
     margin-top: 30px !important;
+    margin-bottom: 40px !important;
 }
 
 .import_image {
@@ -7713,6 +7714,10 @@ Project Four Css
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
+    .custom_spacing_btn {
+        margin-bottom: 0 !important;
+    }
 
     .shadow_i {
     display: block;
