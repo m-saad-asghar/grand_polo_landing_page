@@ -45,7 +45,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                         <Image
-                        src="/assets/icon/sobha_icons/sqft.svg"
+                        src="/assets/icon/polo_icons/townhouses.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -74,7 +74,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                         <Image
-                        src="/assets/icon/sobha_icons/upcomings.svg"
+                        src="/assets/icon/polo_icons/down_payment.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -105,7 +105,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                           <Image
-                        src="/assets/icon/sobha_icons/open_green_spaces.svg"
+                       src="/assets/icon/polo_icons/payment_plan.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -136,7 +136,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                         <Image
-                        src="/assets/icon/sobha_icons/sqft.svg"
+                        src="/assets/icon/polo_icons/handover.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -165,7 +165,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                         <Image
-                        src="/assets/icon/sobha_icons/sqft.svg"
+                        src="/assets/icon/polo_icons/high_roi.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -194,7 +194,7 @@ export default function WhyInvest() {
                                                 <div className="icon-box">
                                                     <span className="icon-plane">
                                                         <Image
-                        src="/assets/icon/sobha_icons/sqft.svg"
+                       src="/assets/icon/polo_icons/polo_inspired.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}

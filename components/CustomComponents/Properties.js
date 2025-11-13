@@ -48,7 +48,7 @@ export default function Properties() {
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#9f8151 "}}>
                                           <Image
-                        src="/assets/icon/sobha_icons/exclusive_island_living.svg"
+                        src="/assets/icon/polo_icons/themed_parks.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -74,7 +74,7 @@ export default function Properties() {
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#9f8151 "}}>
                                          <Image
-                        src="/assets/icon/sobha_icons/expensive_green_landscapes.svg"
+                       src="/assets/icon/polo_icons/clubhouses.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -84,7 +84,7 @@ export default function Properties() {
                                 </div>
                                 <div className="content-box">
                                     <h2 className="amenities_styling">Clubhouses</h2>
-                                    <p>Seven exclusive venues for fitness, leisure, and social connection across the community.</p>
+                                    <p>Seven exclusive venues for fitness, leisure, and social con-nection across the community.</p>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ export default function Properties() {
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#9f8151 "}}>
                                           <Image
-                        src="/assets/icon/sobha_icons/world_class_amenities.svg"
+                        src="/assets/icon/polo_icons/endless_tracks.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}
@@ -111,7 +111,7 @@ export default function Properties() {
                                 </div>
                                 <div className="content-box">
                                     <h2 className="amenities_styling">Endless Tracks</h2>
-                                    <p>Over 10 km of scenic tracks, trails, and loops for walking, jogging, and riding.</p>
+                                    <p>Over 10 km of scenic tracks, trails and loops.</p>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ export default function Properties() {
                                 <div className="icon-box">
                                     <span className="icon-plane" style={{color: "#9f8151 "}}>
                                          <Image
-                        src="/assets/icon/sobha_icons/prime_location.svg"
+                        src="/assets/icon/polo_icons/retail_hub.svg"
                         alt="world_class_amenities"
                         height={50}
                         width={300}

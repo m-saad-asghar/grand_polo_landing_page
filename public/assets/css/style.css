@@ -229,6 +229,10 @@ display: flex;
     padding: 25px;
 }
 
+.custom_height {
+    min-height: 100px !important;
+}
+
 .address_container {
     display: flex;
 }
@@ -436,6 +440,7 @@ h6 {
     font-size: 20px !important;
      font-family: "Neue" !important;
      margin-bottom: 0 !important;
+     color: #0b4a35 !important;
 }
 
 .shadow_line {
