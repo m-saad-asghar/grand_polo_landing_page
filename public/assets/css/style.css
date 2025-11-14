@@ -205,6 +205,10 @@ display: flex;
     display: none;
 }
 
+.captcha_container {
+    margin-top: 20px;
+}
+
 .community_styling {
     font-family: "NeueBold";
     /* font-weight: 400; */
@@ -220,7 +224,7 @@ display: flex;
 }
 
 .bg_container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     border: 1px solid #ffffff;
 }
@@ -7714,6 +7718,10 @@ Project Four Css
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
+     .captcha_container {
+    margin-top: 30px;
+}
 
     .custom_spacing_btn {
         margin-bottom: 0 !important;
