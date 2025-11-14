@@ -165,21 +165,18 @@ export default function ContactForm() {
 
     if (result.result) {
       router.push('/thank-you');
-      setFormData({
-          name: '',
-        phone: '',
-        email: '',
-        country_of_residence: '',
-        bedrooms: '',
-        duration: '',
-        purpose: '',
-      });
       // Reset this form's captcha only
                 setCaptchaToken(null);
                 if (recaptchaRef.current) {
                     recaptchaRef.current.reset();
                 }
       await sendLeadEmail();
+      setFormData({
+          name: '',
+        phone: '',
+        email: '',
+        message: '',
+      });
     } else {
       setDisableBtn(false);
       console.log("Something Went Wrong. Please Try Again.")
