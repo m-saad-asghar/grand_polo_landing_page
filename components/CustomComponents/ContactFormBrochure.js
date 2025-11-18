@@ -33,7 +33,7 @@ export default function ContactFormBrochure({ onSuccess }) {
     const downloadBrochure = () => {
   const link = document.createElement("a");
   link.href = "/assets/pdf/SHIRO Estate Grand Polo Club & Resort.pdf";
-  link.download = "The Palace Villas Ostra by Oasis Brochure.pdf"; 
+  link.download = "SHIRO Estate Grand Polo Club & Resort.pdf"; 
   link.click();
 };
 
