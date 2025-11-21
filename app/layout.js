@@ -7,6 +7,7 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { dM_Sans, } from '@/lib/font'
 import { Toaster } from 'react-hot-toast';
+import WhatsAppButton from "@/components/CustomComponents/WhatsappButton";
 export const metadata = {
     title: 'Grand Polo Club & Resort EN - EMAAR',
     description: 'Project by EMAAR',
@@ -71,6 +72,19 @@ export default function RootLayout({ children }) {
             <body>
                 {children}
                 <Toaster position="top-right" reverseOrder={false} />
+                <div
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            zIndex: 9999,
+            display: "flex",
+            flexDirection: "column",
+            gap: "50px",
+          }}
+        >
+          <WhatsAppButton />
+        </div>
             </body>
         </html>
     )
