@@ -7,7 +7,8 @@ import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { dM_Sans, } from '@/lib/font'
 import { Toaster } from 'react-hot-toast';
-import WhatsAppButton from "@/components/CustomComponents/WhatsAppButton";
+import WhatsAppButton from "../components/CustomComponents/WhatsAppButton";
+// import WhatsAppButton from "@/components/CustomComponents/WhatsAppButton";
 // import WhatsAppButton from "@/components/CustomComponents/WhatsappButton";
 export const metadata = {
     title: 'Grand Polo Club & Resort EN - EMAAR',
