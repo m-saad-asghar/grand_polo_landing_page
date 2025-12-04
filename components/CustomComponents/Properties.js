@@ -183,7 +183,7 @@ export default function Properties() {
                
             </div>
 
-        <div className="import_image">
+        {/* <div className="import_image"> */}
          {/* <Image
           src="/assets/img/slider/polo_b_image.jpg"
            alt="Polo Large Image"
@@ -192,7 +192,7 @@ export default function Properties() {
            className='main_image_styling'
          /> */}
          
-       </div>
+       {/* </div> */}
 
       {/* <div className="row apartment_row_styling margin_left_null">
             <div className="why_invest_wrapper why_invest_mobile_container col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
